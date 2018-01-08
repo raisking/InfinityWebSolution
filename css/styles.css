@@ -1,72 +1,37 @@
-body{
-    background: #ccc;
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
 }
-#header{
-    border: 1px solid #ccc;
-    height: 15vh;
-    background: #fff;
+.wrapper > div{
+    /* background-color: #ccc; */
 }
-#body{
-    border: 1px solid #ccc;
-    height: 70vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: #fff;
+.main-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
 }
-#footer{
-    border: 1px solid #ccc;
-    height: 15vh;
-    background: #fff;
+.main-body > div{
+    background-color: #ccc;
+    padding: 10px;
 }
-
-.flexbox{
-    height: 100%;
-    width: 80%;
-    display: flex;
+#header-container{
+    background-color: #ddd;
 }
-.item{
-    border: 1px solid #ccc;
-    height: 80%;    
-    margin: 10px;
+#main-container{
+    background-color: rgb(28, 124, 161);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-.flexbox-div{
-    height: auto;
-    width: 95%;
-    margin: 10px;
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #ccc; 
-
+#footer-container{
+    background-color: aquamarine;
 }
-.item-div{
-    border: 1px solid #ccc;
-    height: 150px;
-    margin: 10px;
-    border-radius: 10px;
-    color: rgb(29, 101, 150);
-    box-shadow: 2px 2px 2px #ccc;
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
 }
-.heading{
-    color: rgb(20, 172, 131);
-    font-weight: bolder;
-    border: 1px solid #ccc;
-    width: 95%;
-    margin: 10px;
-}
-#footer-div{
-    border: 1px solid #ccc;
-    width: 95%;
-    margin: 10px;
-}
-.header-right{
-    display: flex;
-}
-#header-center{
-    width: 60%;
-    text-align: center;
-    border: 1px solid red;
-}
-.header-items{
-    width: 18%;
-    border: 1px solid red;
+.footer > div {
+    /* background-color: rgb(57, 184, 177); */
+    height: 200px;
 }
