@@ -4,7 +4,7 @@
     grid-gap: 1em;
 }
 .wrapper > div{
-    /* background-color: #ccc; */
+    padding: 10px;
 }
 .main-body{
     display: grid;
@@ -34,4 +34,8 @@
 .footer > div {
     /* background-color: rgb(57, 184, 177); */
     height: 200px;
+}
+#logo{
+    width: 150px;
+    border-radius: 50%;
 }
