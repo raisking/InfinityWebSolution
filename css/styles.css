@@ -58,3 +58,15 @@ body{
     width: 95%;
     margin: 10px;
 }
+.header-right{
+    display: flex;
+}
+#header-center{
+    width: 60%;
+    text-align: center;
+    border: 1px solid red;
+}
+.header-items{
+    width: 18%;
+    border: 1px solid red;
+}
