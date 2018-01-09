@@ -14,6 +14,7 @@
 .main-body > div{
     background-color: #ccc;
     padding: 10px;
+    width: auto;
 }
 #header-container{
     background-color: #ddd;
