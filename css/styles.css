@@ -45,3 +45,7 @@
 .footer img{
     height: 270px;
 }
+.wrapper div:nth-child(3){
+    width: 200px;
+}
+
