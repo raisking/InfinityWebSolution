@@ -1,9 +1,19 @@
+*{
+ 
+}
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+    background-color: rgb(221, 225, 240)!important;
 
+  }
+  .nav-wrapper{
+     background-color: rgb(8, 169, 184);
+  }
+#myfooter{
+    background-color: rgb(8, 169, 184);
+}
   main {
     flex: 1 0 auto;
   }
