@@ -7,3 +7,8 @@ body {
   main {
     flex: 1 0 auto;
   }
+.params{
+    border: 1px solid rgb(92, 74, 74);
+    margin-top: 20px;
+    padding: 10px;
+}
