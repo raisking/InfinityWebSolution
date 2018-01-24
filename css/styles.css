@@ -1,11 +1,9 @@
-*{
- 
-}
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: rgb(221, 225, 240)!important;
+    background-color: rgba(151, 54, 241, 0.438)!important;
 
   }
   .nav-wrapper{
@@ -37,4 +35,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 20px;
+}
+#slider{
+  margin-top: 30px;
 }
