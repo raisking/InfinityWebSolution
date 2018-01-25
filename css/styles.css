@@ -62,3 +62,14 @@ body {
   width: 100%;
   max-width:initial;
 }
+#partners img{
+  height: 180px;
+  width: 220px;
+  padding: 10px;
+}
+#partners-div{
+  background-color: rgb(59, 82, 37);
+  width: 100%;
+  max-width:initial;
+  color: #fff;
+}
