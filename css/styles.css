@@ -77,3 +77,8 @@ body {
   height: 70px;
   border-radius: 50%;
 }
+#testominey{
+  width: 100%;
+  max-width:initial;
+  background-color: bisque;
+}
