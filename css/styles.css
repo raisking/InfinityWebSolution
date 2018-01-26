@@ -81,5 +81,15 @@ body {
 #testominey{
   width: 100%;
   max-width:initial;
-  background-color: rgb(3, 133, 138);
+  background-color: #007E33;
+}
+#team{
+  width: 100%;
+  max-width:initial;
+  background-color: #33b5e5;  
+}
+#member img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
