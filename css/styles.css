@@ -72,3 +72,8 @@ body {
   max-width:initial;
   color: #fff;
 }
+#client img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
